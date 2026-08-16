@@ -175,3 +175,25 @@ Green, B. B., Anderson, M. L., Cook, A. J., Chubak, J., Fuller, S., Meenan, R. T
 | Commit + Push auf denselben Branch (Draft-PR #1) | Commit „Literaturrecherche: Originale verifiziert …“ gepusht | ✅ |
 
 **Gesamtergebnis:** 30 Einzelchecks (Zitate, Zahlen, Autoren, DOIs, Links) — alle bestanden; 2 Korrekturen aus dem Triple-Check (sic-Klammer Hoffmeister, GEDA-ID-Tausch) in der Quellendatei nachgezogen.
+
+---
+
+## 8 · Vierte Ebene: Gegentest im echten Chrome (2026-08-16, nach Mailversand)
+
+Zusätzlich zum curl-/pdftotext-Check wurden Übergabe und Quellen im laufenden Chrome (claude-in-chrome) gegengetestet — per Screenshot des tatsächlich gerenderten Zustands:
+
+| Prüfobjekt | Chrome-Ergebnis |
+|---|---|
+| GitHub-Branch: QUELLEN_kolonkarzinom_diskussion.md | ✅ vollständig gerendert, alle Abschnitte/Tabellen/Umlaute korrekt (kompletter Seitentext ausgelesen) |
+| GitHub-Branch: PRUEFREPORT | ✅ gerendert, Gesamtergebnis-Zeile gefunden |
+| doi.org/10.17886/RKI-GBE-2017-115 | ✅ landet auf edoc.rki.de/handle/176904/2904; Titel, alle 4 Autoren und der 57 %/61 %-Abstract-Satz im Screenshot sichtbar |
+| edoc-PDF, Seite 3 (= S. 83) | ✅ „Ergebnisse und Einordnung“ mit 56,5 %/60,8 %-Satz und Geschlechtervergleich-Satz sichtbar |
+| cf.aerzteblatt.de Gruner-PDF (S. 423) | ✅ Titel, Autoren, Summary mit 10 % → 29,7 %/27,7 %, DRKS00011858, Conclusion sichtbar |
+| cf.aerzteblatt.de Hoffmeister-PDF (S. 87) | ✅ Summary mit „62% (from 15% to 25%, p <0.001, especially among men (+158% vs. +39% for women)“ — bestätigt auch den sic-Druckfehler — sowie „did not increase“, „32% (5.9% vs 4.4%)“, DRKS00006098 |
+| zenodo.org/records/21242132 | ✅ „Published July 15, 2026 · Version 2026-07-15“, Konzept-DOI-Hinweis („always resolve to the latest“) sichtbar |
+| gbe.rki.de/rauchen (interaktives Dashboard) | ✅ **Live-Web-Bestätigung der GEDA-Stichprobe:** Jahr 2019, altersstandardisiert, Tabellen-Ansicht „Nach Region“ zeigt Nordrhein-Westfalen 31,2 (28,9–33,6) und Bayern 26,6 (24,2–29,1) — exakt die zitierten Werte. Damit ist der Gegencheck jetzt auch auf der offiziellen Webseite erbracht, nicht nur im Datensatz. |
+| PMC8162159 (Green 2022) | ✅ Key-Results- und Conclusions-Absatz wortgleich sichtbar (57.5% vs. 69.1%, IRR 1.21, „mailed fecal tests and phone follow-up“) |
+| GMX-Zustellung | ⚠️ web.gmx.net ist in der Chrome-Extension nicht freigegeben („domain not allowed“) → Ersatzbeweis per IMAP: Nachricht [1822] im INBOX (7,18 MB), BODYSTRUCTURE listet alle 6 Anhänge namentlich (PRUEFREPORT…, QUELLEN…, starker2017.pdf, zi_va2002.pdf, hoffmeister2017.pdf, gruner2020.pdf) |
+| versorgungsatlas.de | ⚠️ in der Chrome-Extension nicht freigegeben → Inhalt bleibt über das offizielle PDF (curl + pdftotext, zeichengenau) verifiziert; für einen Chrome-Sichttest müsste die Domain in der Extension freigeschaltet werden |
+
+Ergebnis der vierten Ebene: Kein einziger inhaltlicher Widerspruch — alle Zitate, Zahlen und Fundstellen halten auch im gerenderten Web-Zustand. Die zwei ⚠️-Punkte sind Browser-Berechtigungen, keine Quellenprobleme.
