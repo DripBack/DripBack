@@ -112,7 +112,41 @@ Lizenz CC BY 4.0. Datengrundlage der Werte: GEDA 2019/2020-EHIS (telefonische Be
 
 ## Quelle 3 (C4): Wirksamkeit von Einladungsverfahren
 
-**STATUS: Recherche-Agent noch nicht abgeschlossen — Abschnitt wird ergänzt.**
+Zwei Kandidaten — **Empfehlung: 3a (Gruner) als Hauptbeleg** wegen Deutschland-Bezug, 3b (Green) als sofort zitierfähige Alternative.
+
+### 3a — Gruner et al. 2020 (Deutschland, RCT) — BEVORZUGT
+
+**APA 7:** 🔶 (Zitation wörtlich verifiziert über die Referenzliste eines geöffneten Open-Access-Volltexts, BMC Medicine 2025, DOI 10.1186/s12916-025-03948-9)
+> Gruner, L. F., Hoffmeister, M., Ludwig, L., Meny, S., & Brenner, H. (2020). The effects of differing invitation models on the uptake of immunological fecal occult blood testing. *Deutsches Ärzteblatt International, 117*(25), 423–430. https://doi.org/10.3238/arztebl.2020.0423
+
+DKFZ-Gruppe (Brenner/Hoffmeister); dreiarmige RCT, 17.532 AOK-Baden-Württemberg-Versicherte, 50–54 Jahre.
+
+**Links (🔶, laut Suchtreffern open access):**
+- PMC (englisch): https://pmc.ncbi.nlm.nih.gov/articles/PMC7490457/ (PMID 32885780)
+- Deutsches Ärzteblatt (deutsch): https://aerzteblatt.de/archiv/214401
+
+**Kerndaten** ❌ (nur aus konsistenten Such-Snippets — Wortlaut zwingend prüfen): FIT-Nutzung binnen eines Jahres ca. 29,7 % (Einladung mit beigelegtem Test) bzw. 27,7 % (Einladung mit Anforderungsoption) vs. ca. 10 % Kontrollgruppe (nur Anschreiben) — grob eine Verdreifachung (+18–20 Prozentpunkte).
+
+**Prüfpunkte Heimmaschine:**
+- [ ] PMC7490457 öffnen, die Teilnahmeraten aller drei Arme wörtlich aus dem Abstract (Results) mit Fundstelle ziehen.
+- [ ] DOI `10.3238/arztebl.2020.0423` auflösen.
+
+**Dient im Bericht:** Direktester deutscher RCT-Beleg für die Handlungsempfehlung „Teilnahme steigern": Persönliche Einladung mit beigelegtem/leicht anforderbarem Stuhltest erhöht die Screening-Teilnahme drastisch.
+
+### 3b — Green et al. 2022 (USA, RCT, 9 Jahre) — Alternative, bereits wörtlich belegt
+
+**APA 7:** ✅ (Volltext-XML des PMC-Artikels über GitHub-Mirror geöffnet und gelesen)
+> Green, B. B., Anderson, M. L., Cook, A. J., Chubak, J., Fuller, S., Meenan, R. T., & Vernon, S. W. (2022). A centralized program with stepped support increases adherence to colorectal cancer screening over 9 years: A randomized trial. *Journal of General Internal Medicine, 37*(5), 1073–1080. https://doi.org/10.1007/s11606-021-06922-2
+
+**Link:** https://pmc.ncbi.nlm.nih.gov/articles/PMC8162159/ (PMCID PMC8162159; gelesenes XML: https://raw.githubusercontent.com/choxos/funded-trials/main/pmc_nih/PMC%208162159.xml)
+
+**Kernaussage 1** ✅ (Abstract, Key Results; UC = usual care):
+> "Compared to UC, intervention participants had 21% more covered time over 9 years (57.5% vs. 69.1%; adjusted incidence rate ratio 1.21, 95% confidence interval 1.16–1.25, P < 0.001)."
+
+**Kernaussage 2** ✅ (Abstract, Conclusions):
+> "An outreach program that included mailed fecal tests and phone follow-up led to increased adherence to CRC testing and fewer age-eligible individuals without any CRC testing over 9 years."
+
+**Dient im Bericht:** Randomisierter Langzeit-Beleg, dass organisiertes Einladungs-/Outreach-Programm (postalische Stuhltests + Erinnerungen) die dauerhafte Screening-Teilnahme signifikant erhöht — sofort zitierfähig, falls 3a nicht verifiziert werden kann.
 
 ---
 
@@ -120,6 +154,6 @@ Lizenz CC BY 4.0. Datengrundlage der Werte: GEDA 2019/2020-EHIS (telefonische Be
 
 1. **Steffen et al. 2020 (Versorgungsatlas 20/02)** — regionale Screening-Unterschiede (nach Heimmaschinen-Prüfung).
 2. **RKI-GEDA-Datensatz 2026 (bzw. ersatzweise eine JoHM-Publikation dazu)** — Risikofaktoren NRW vs. Bayern (Zahlen bereits verifiziert).
-3. **Einladungsverfahren-Quelle (C4)** — für die Handlungsempfehlung (folgt).
+3. **Gruner et al. 2020 (Dtsch Arztebl Int)** — Einladungsverfahren/Handlungsempfehlung (nach Heimmaschinen-Prüfung; sonst ersatzweise Green et al. 2022, bereits wörtlich belegt).
 
 Der Starker-DOI ist kein Neuzugang, sondern Nachtrag zu Teil A. Damit bleibt das Budget (~8.400 Zeichen Diskussion) eingehalten.
