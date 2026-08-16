@@ -170,7 +170,7 @@ Deutsche Originalfassung: „Darmkrebsscreening – persönliche Einladung steig
 **Design ✅ (Summary/Methods, S. 87–88):** SAMS-Studie („Saarland gegen Darmkrebs – Machen Sie mit!“), individuell randomisierte Interventionsstudie im Saarland, 18 560 Personen im Alter 50 (Einladungsbrief + beigelegter gFOBT / Brief ohne Test / keine Einladung) und 16 824 Personen im Alter 55 (Einladung zur Früherkennungskoloskopie / keine Einladung), ab 1. April 2012, Teilnahme via KV-Abrechnungsdaten.
 
 **Effektgrößen ✅ (wörtlich aus Summary → Results, S. 87):**
-> „A written invitation to undergo testing of the stool for blood, together with an accompanying test, increased the participation rate within one year by 62% (from 15% to 25%, p <0.001), especially among men (+158% vs. +39% for women).“
+> „A written invitation to undergo testing of the stool for blood, together with an accompanying test, increased the participation rate within one year by 62% (from 15% to 25%, p <0.001, especially among men (+158% vs. +39% for women).“ *(sic — die schließende Klammer nach „p <0.001“ fehlt im Original; zeichengenau übernommen)*
 
 > „On the other hand, a written invitation with no accompanying test did not increase the participation rate. A written invitation to undergo colonoscopic screening increased the participation rate within one year by 32% (5.9% vs 4.4%, p <0.001).“
 
