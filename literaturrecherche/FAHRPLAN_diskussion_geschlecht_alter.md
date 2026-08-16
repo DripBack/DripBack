@@ -26,7 +26,7 @@ Jeder Diskussionsabsatz folgt denselben 5 Schritten:
 Bundesweite Krebsstatistik zeigt dasselbe Muster (höhere Inzidenz und Mortalität bei Männern) → Beleg: RKI 2025 „Krebs in Deutschland“ (Teil A). Platzhalter: `[Kapitel/Seite aus deinem Teil-A-Beleg]`.
 
 **B3 — Erklärung Risikofaktoren:**
-Rauchen ist bei Männern deutlich verbreiteter als bei Frauen (GEDA 2019: 33,9 % vs. 24,0 %, deutschlandweit) und zählt zu den wichtigsten beeinflussbaren Darmkrebs-Risikofaktoren → Beleg: RKI-GEDA-Datensatz 2026 (Quelle 2 der Recherche).
+Rauchen ist bei Männern deutlich verbreiteter als bei Frauen (GEDA 2019, Deutschland, **altersstandardisiert: 34,0 % vs. 25,1 %**; beobachtet: 33,9 % vs. 24,0 %) und zählt zu den wichtigsten beeinflussbaren Darmkrebs-Risikofaktoren → Beleg: RKI-GEDA-Datensatz 2026 (Quelle 2 der Recherche). **Wichtig für Konsistenz:** die altersstandardisierten Werte nehmen — die NRW/Bayern-Werte im Bericht (31,2 %/26,6 %) sind ebenfalls altersstandardisiert; roh und standardisiert nicht im selben Kapitel mischen.
 
 **B4 — Erklärung Früherkennung (⚠️ HIER IST DIE FALLE):**
 - **Stuhltest:** Männer nehmen ihn massiv seltener wahr — Steffen et al. 2020 (S. 1): 2018 nur 7,4 % der 50- bis 54-jährigen Männer vs. 23 % der Frauen; Kernaussage S. 4: Quote „bei Männern besonders niedrig“. Hoffmeister et al. 2017 (S. 87): Teilnahme Frauen fast doppelt so hoch (33 % vs. 17 %); persönliche Einladung mit Testkit wirkt bei Männern besonders stark (+158 % vs. +39 %).
